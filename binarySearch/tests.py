@@ -10,4 +10,6 @@ class TestBinary(unittest.TestCase):
     def test_init(self):
         """ test the init method for BinarySearch"""
         self.assertEqual([0, 2, 4, 6, 8, 10], self.search.array)
-        
+
+if __name__ ==  "__main__":
+    unittest.main()
